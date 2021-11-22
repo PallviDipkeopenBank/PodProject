@@ -7,11 +7,10 @@
 
 import UIKit
 
-public class TestFilesViewController: UIViewController {
+open class TestFilesViewController: UIViewController {
     
-    public override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
-        
         
     }
     
