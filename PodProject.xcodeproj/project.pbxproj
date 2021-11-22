@@ -10,6 +10,8 @@
 		0D2502DC274B9C19001D45D9 /* PodProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2502D2274B9C18001D45D9 /* PodProject.framework */; };
 		0D2502E1274B9C19001D45D9 /* PodProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2502E0274B9C19001D45D9 /* PodProjectTests.swift */; };
 		0D2502E3274B9C19001D45D9 /* PodProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D2502D5274B9C18001D45D9 /* PodProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D2502F3274B9CA9001D45D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2502F2274B9CA9001D45D9 /* ViewController.swift */; };
+		0D250361274B9FE5001D45D9 /* TestFilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D250360274B9FE5001D45D9 /* TestFilesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		0D2502DB274B9C19001D45D9 /* PodProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D2502E0274B9C19001D45D9 /* PodProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodProjectTests.swift; sourceTree = "<group>"; };
 		0D2502E2274B9C19001D45D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D2502F2274B9CA9001D45D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D250360274B9FE5001D45D9 /* TestFilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFilesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 			children = (
 				0D2502D5274B9C18001D45D9 /* PodProject.h */,
 				0D2502D6274B9C18001D45D9 /* Info.plist */,
+				0D2502F6274B9CAE001D45D9 /* Source */,
 			);
 			path = PodProject;
 			sourceTree = "<group>";
@@ -84,6 +89,15 @@
 				0D2502E2274B9C19001D45D9 /* Info.plist */,
 			);
 			path = PodProjectTests;
+			sourceTree = "<group>";
+		};
+		0D2502F6274B9CAE001D45D9 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0D2502F2274B9CA9001D45D9 /* ViewController.swift */,
+				0D250360274B9FE5001D45D9 /* TestFilesViewController.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +161,7 @@
 				TargetAttributes = {
 					0D2502D1274B9C18001D45D9 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 					0D2502DA274B9C19001D45D9 = {
 						CreatedOnToolsVersion = 12.3;
@@ -194,6 +209,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D250361274B9FE5001D45D9 /* TestFilesViewController.swift in Sources */,
+				0D2502F3274B9CA9001D45D9 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +358,7 @@
 		0D2502E7274B9C19001D45D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = BJGH6J8PG2;
@@ -349,6 +367,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = PodProject/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -357,6 +376,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.openBank.com.PodProject;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +385,7 @@
 		0D2502E8274B9C19001D45D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = BJGH6J8PG2;
@@ -373,6 +394,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = PodProject/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -389,6 +411,7 @@
 		0D2502EA274B9C19001D45D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BJGH6J8PG2;
 				INFOPLIST_FILE = PodProjectTests/Info.plist;
@@ -407,6 +430,7 @@
 		0D2502EB274B9C19001D45D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BJGH6J8PG2;
 				INFOPLIST_FILE = PodProjectTests/Info.plist;
