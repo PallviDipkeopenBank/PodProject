@@ -10,7 +10,6 @@
 		0D2502DC274B9C19001D45D9 /* PodProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2502D2274B9C18001D45D9 /* PodProject.framework */; };
 		0D2502E1274B9C19001D45D9 /* PodProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2502E0274B9C19001D45D9 /* PodProjectTests.swift */; };
 		0D2502E3274B9C19001D45D9 /* PodProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D2502D5274B9C18001D45D9 /* PodProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D2502F3274B9CA9001D45D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2502F2274B9CA9001D45D9 /* ViewController.swift */; };
 		0D250361274B9FE5001D45D9 /* TestFilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D250360274B9FE5001D45D9 /* TestFilesViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +30,6 @@
 		0D2502DB274B9C19001D45D9 /* PodProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D2502E0274B9C19001D45D9 /* PodProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodProjectTests.swift; sourceTree = "<group>"; };
 		0D2502E2274B9C19001D45D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D2502F2274B9CA9001D45D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0D250360274B9FE5001D45D9 /* TestFilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFilesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,7 +92,6 @@
 		0D2502F6274B9CAE001D45D9 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				0D2502F2274B9CA9001D45D9 /* ViewController.swift */,
 				0D250360274B9FE5001D45D9 /* TestFilesViewController.swift */,
 			);
 			path = Source;
@@ -210,7 +207,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D250361274B9FE5001D45D9 /* TestFilesViewController.swift in Sources */,
-				0D2502F3274B9CA9001D45D9 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
