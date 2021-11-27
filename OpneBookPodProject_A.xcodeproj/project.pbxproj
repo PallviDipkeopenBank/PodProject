@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0D11A9032752183400F8C2CF /* TestFilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D11A9022752183400F8C2CF /* TestFilesViewController.swift */; platformFilter = ios; };
-		0D2502DC274B9C19001D45D9 /* PodProject_A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2502D2274B9C18001D45D9 /* PodProject_A.framework */; };
+		0D2502DC274B9C19001D45D9 /* OpneBookPodProject_A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2502D2274B9C18001D45D9 /* OpneBookPodProject_A.framework */; };
 		0D2502E1274B9C19001D45D9 /* PodProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2502E0274B9C19001D45D9 /* PodProjectTests.swift */; };
-		0D2502E3274B9C19001D45D9 /* PodProject_A.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D2502D5274B9C18001D45D9 /* PodProject_A.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D2502E3274B9C19001D45D9 /* OpneBookPodProject_A.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D2502D5274B9C18001D45D9 /* OpneBookPodProject_A.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,10 +25,10 @@
 
 /* Begin PBXFileReference section */
 		0D11A9022752183400F8C2CF /* TestFilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestFilesViewController.swift; sourceTree = "<group>"; };
-		0D2502D2274B9C18001D45D9 /* PodProject_A.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodProject_A.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D2502D5274B9C18001D45D9 /* PodProject_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodProject_A.h; sourceTree = "<group>"; };
+		0D2502D2274B9C18001D45D9 /* OpneBookPodProject_A.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpneBookPodProject_A.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D2502D5274B9C18001D45D9 /* OpneBookPodProject_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpneBookPodProject_A.h; sourceTree = "<group>"; };
 		0D2502D6274B9C18001D45D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D2502DB274B9C19001D45D9 /* PodProject_ATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodProject_ATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D2502DB274B9C19001D45D9 /* OpneBookPodProject_ATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpneBookPodProject_ATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D2502E0274B9C19001D45D9 /* PodProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodProjectTests.swift; sourceTree = "<group>"; };
 		0D2502E2274B9C19001D45D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D2502DC274B9C19001D45D9 /* PodProject_A.framework in Frameworks */,
+				0D2502DC274B9C19001D45D9 /* OpneBookPodProject_A.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +55,7 @@
 		0D2502C8274B9C18001D45D9 = {
 			isa = PBXGroup;
 			children = (
-				0D2502D4274B9C18001D45D9 /* PodProject_A */,
+				0D2502D4274B9C18001D45D9 /* OpneBookPodProject_A */,
 				0D2502DF274B9C19001D45D9 /* PodProjectTests */,
 				0D2502D3274B9C18001D45D9 /* Products */,
 			);
@@ -64,20 +64,20 @@
 		0D2502D3274B9C18001D45D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0D2502D2274B9C18001D45D9 /* PodProject_A.framework */,
-				0D2502DB274B9C19001D45D9 /* PodProject_ATests.xctest */,
+				0D2502D2274B9C18001D45D9 /* OpneBookPodProject_A.framework */,
+				0D2502DB274B9C19001D45D9 /* OpneBookPodProject_ATests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0D2502D4274B9C18001D45D9 /* PodProject_A */ = {
+		0D2502D4274B9C18001D45D9 /* OpneBookPodProject_A */ = {
 			isa = PBXGroup;
 			children = (
-				0D2502D5274B9C18001D45D9 /* PodProject_A.h */,
+				0D2502D5274B9C18001D45D9 /* OpneBookPodProject_A.h */,
 				0D2502D6274B9C18001D45D9 /* Info.plist */,
 				0D2502F6274B9CAE001D45D9 /* Source */,
 			);
-			path = PodProject_A;
+			path = OpneBookPodProject_A;
 			sourceTree = "<group>";
 		};
 		0D2502DF274B9C19001D45D9 /* PodProjectTests */ = {
@@ -104,16 +104,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D2502E3274B9C19001D45D9 /* PodProject_A.h in Headers */,
+				0D2502E3274B9C19001D45D9 /* OpneBookPodProject_A.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0D2502D1274B9C18001D45D9 /* PodProject_A */ = {
+		0D2502D1274B9C18001D45D9 /* OpneBookPodProject_A */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D2502E6274B9C19001D45D9 /* Build configuration list for PBXNativeTarget "PodProject_A" */;
+			buildConfigurationList = 0D2502E6274B9C19001D45D9 /* Build configuration list for PBXNativeTarget "OpneBookPodProject_A" */;
 			buildPhases = (
 				0D2502CD274B9C18001D45D9 /* Headers */,
 				0D2502CE274B9C18001D45D9 /* Sources */,
@@ -124,14 +124,14 @@
 			);
 			dependencies = (
 			);
-			name = PodProject_A;
+			name = OpneBookPodProject_A;
 			productName = PodProject;
-			productReference = 0D2502D2274B9C18001D45D9 /* PodProject_A.framework */;
+			productReference = 0D2502D2274B9C18001D45D9 /* OpneBookPodProject_A.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0D2502DA274B9C19001D45D9 /* PodProject_ATests */ = {
+		0D2502DA274B9C19001D45D9 /* OpneBookPodProject_ATests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D2502E9274B9C19001D45D9 /* Build configuration list for PBXNativeTarget "PodProject_ATests" */;
+			buildConfigurationList = 0D2502E9274B9C19001D45D9 /* Build configuration list for PBXNativeTarget "OpneBookPodProject_ATests" */;
 			buildPhases = (
 				0D2502D7274B9C19001D45D9 /* Sources */,
 				0D2502D8274B9C19001D45D9 /* Frameworks */,
@@ -142,9 +142,9 @@
 			dependencies = (
 				0D2502DE274B9C19001D45D9 /* PBXTargetDependency */,
 			);
-			name = PodProject_ATests;
+			name = OpneBookPodProject_ATests;
 			productName = PodProjectTests;
-			productReference = 0D2502DB274B9C19001D45D9 /* PodProject_ATests.xctest */;
+			productReference = 0D2502DB274B9C19001D45D9 /* OpneBookPodProject_ATests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -165,7 +165,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0D2502CC274B9C18001D45D9 /* Build configuration list for PBXProject "PodProject_A" */;
+			buildConfigurationList = 0D2502CC274B9C18001D45D9 /* Build configuration list for PBXProject "OpneBookPodProject_A" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -178,8 +178,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D2502D1274B9C18001D45D9 /* PodProject_A */,
-				0D2502DA274B9C19001D45D9 /* PodProject_ATests */,
+				0D2502D1274B9C18001D45D9 /* OpneBookPodProject_A */,
+				0D2502DA274B9C19001D45D9 /* OpneBookPodProject_ATests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,7 +223,7 @@
 /* Begin PBXTargetDependency section */
 		0D2502DE274B9C19001D45D9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0D2502D1274B9C18001D45D9 /* PodProject_A */;
+			target = 0D2502D1274B9C18001D45D9 /* OpneBookPodProject_A */;
 			targetProxy = 0D2502DD274B9C19001D45D9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -361,7 +361,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = PodProject_A/Info.plist;
+				INFOPLIST_FILE = OpneBookPodProject_A/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -388,7 +388,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = PodProject_A/Info.plist;
+				INFOPLIST_FILE = OpneBookPodProject_A/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -445,7 +445,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D2502CC274B9C18001D45D9 /* Build configuration list for PBXProject "PodProject_A" */ = {
+		0D2502CC274B9C18001D45D9 /* Build configuration list for PBXProject "OpneBookPodProject_A" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D2502E4274B9C19001D45D9 /* Debug */,
@@ -454,7 +454,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0D2502E6274B9C19001D45D9 /* Build configuration list for PBXNativeTarget "PodProject_A" */ = {
+		0D2502E6274B9C19001D45D9 /* Build configuration list for PBXNativeTarget "OpneBookPodProject_A" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D2502E7274B9C19001D45D9 /* Debug */,
@@ -463,7 +463,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0D2502E9274B9C19001D45D9 /* Build configuration list for PBXNativeTarget "PodProject_ATests" */ = {
+		0D2502E9274B9C19001D45D9 /* Build configuration list for PBXNativeTarget "OpneBookPodProject_ATests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D2502EA274B9C19001D45D9 /* Debug */,

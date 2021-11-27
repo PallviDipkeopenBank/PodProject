@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 
-  spec.name         = "PodProject_A"
+  spec.name         = "OpneBookPodProject_A"
   spec.version      = "0.0.1"
   spec.summary      = "Testing Pod file creation"
 
@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   
   spec.source       = { :git => "https://github.com/PallviDipkeopenBank/PodProject.git" , :tag => "0.1.0"}
 
-  spec.source_files  = 'PodProject/Source/*.{swift}'
+  spec.source_files  = 'OpneBookPodProject_A/Source/*.{swift}'
 
   # spec.exclude_files = "Source/*"
   spec.platform = :ios, "9.0"
