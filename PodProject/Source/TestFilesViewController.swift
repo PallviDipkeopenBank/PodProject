@@ -9,12 +9,12 @@ import UIKit
 
 open class TestFilesViewController: UIViewController {
     
-    open override func viewDidLoad() {
+     override open func viewDidLoad() {
         super.viewDidLoad()
         
     }
     
-    public func testAcees() {
+    open func testAcees() {
         print("got access to files")
     }
     

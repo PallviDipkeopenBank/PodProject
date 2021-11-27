@@ -3,14 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D2502DC274B9C19001D45D9 /* PodProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2502D2274B9C18001D45D9 /* PodProject.framework */; };
+		0D11A9032752183400F8C2CF /* TestFilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D11A9022752183400F8C2CF /* TestFilesViewController.swift */; platformFilter = ios; };
+		0D2502DC274B9C19001D45D9 /* PodProject_A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2502D2274B9C18001D45D9 /* PodProject_A.framework */; };
 		0D2502E1274B9C19001D45D9 /* PodProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2502E0274B9C19001D45D9 /* PodProjectTests.swift */; };
 		0D2502E3274B9C19001D45D9 /* PodProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D2502D5274B9C18001D45D9 /* PodProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D250361274B9FE5001D45D9 /* TestFilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D250360274B9FE5001D45D9 /* TestFilesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,13 +24,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D2502D2274B9C18001D45D9 /* PodProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D11A9022752183400F8C2CF /* TestFilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestFilesViewController.swift; sourceTree = "<group>"; };
+		0D2502D2274B9C18001D45D9 /* PodProject_A.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodProject_A.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D2502D5274B9C18001D45D9 /* PodProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodProject.h; sourceTree = "<group>"; };
 		0D2502D6274B9C18001D45D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D2502DB274B9C19001D45D9 /* PodProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D2502DB274B9C19001D45D9 /* PodProject_ATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodProject_ATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D2502E0274B9C19001D45D9 /* PodProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodProjectTests.swift; sourceTree = "<group>"; };
 		0D2502E2274B9C19001D45D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D250360274B9FE5001D45D9 /* TestFilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFilesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D2502DC274B9C19001D45D9 /* PodProject.framework in Frameworks */,
+				0D2502DC274B9C19001D45D9 /* PodProject_A.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,8 +64,8 @@
 		0D2502D3274B9C18001D45D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0D2502D2274B9C18001D45D9 /* PodProject.framework */,
-				0D2502DB274B9C19001D45D9 /* PodProjectTests.xctest */,
+				0D2502D2274B9C18001D45D9 /* PodProject_A.framework */,
+				0D2502DB274B9C19001D45D9 /* PodProject_ATests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,7 +92,7 @@
 		0D2502F6274B9CAE001D45D9 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				0D250360274B9FE5001D45D9 /* TestFilesViewController.swift */,
+				0D11A9022752183400F8C2CF /* TestFilesViewController.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -111,9 +111,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0D2502D1274B9C18001D45D9 /* PodProject */ = {
+		0D2502D1274B9C18001D45D9 /* PodProject_A */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D2502E6274B9C19001D45D9 /* Build configuration list for PBXNativeTarget "PodProject" */;
+			buildConfigurationList = 0D2502E6274B9C19001D45D9 /* Build configuration list for PBXNativeTarget "PodProject_A" */;
 			buildPhases = (
 				0D2502CD274B9C18001D45D9 /* Headers */,
 				0D2502CE274B9C18001D45D9 /* Sources */,
@@ -124,14 +124,14 @@
 			);
 			dependencies = (
 			);
-			name = PodProject;
+			name = PodProject_A;
 			productName = PodProject;
-			productReference = 0D2502D2274B9C18001D45D9 /* PodProject.framework */;
+			productReference = 0D2502D2274B9C18001D45D9 /* PodProject_A.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0D2502DA274B9C19001D45D9 /* PodProjectTests */ = {
+		0D2502DA274B9C19001D45D9 /* PodProject_ATests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D2502E9274B9C19001D45D9 /* Build configuration list for PBXNativeTarget "PodProjectTests" */;
+			buildConfigurationList = 0D2502E9274B9C19001D45D9 /* Build configuration list for PBXNativeTarget "PodProject_ATests" */;
 			buildPhases = (
 				0D2502D7274B9C19001D45D9 /* Sources */,
 				0D2502D8274B9C19001D45D9 /* Frameworks */,
@@ -142,9 +142,9 @@
 			dependencies = (
 				0D2502DE274B9C19001D45D9 /* PBXTargetDependency */,
 			);
-			name = PodProjectTests;
+			name = PodProject_ATests;
 			productName = PodProjectTests;
-			productReference = 0D2502DB274B9C19001D45D9 /* PodProjectTests.xctest */;
+			productReference = 0D2502DB274B9C19001D45D9 /* PodProject_ATests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -165,7 +165,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0D2502CC274B9C18001D45D9 /* Build configuration list for PBXProject "PodProject" */;
+			buildConfigurationList = 0D2502CC274B9C18001D45D9 /* Build configuration list for PBXProject "PodProject_A" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -178,8 +178,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D2502D1274B9C18001D45D9 /* PodProject */,
-				0D2502DA274B9C19001D45D9 /* PodProjectTests */,
+				0D2502D1274B9C18001D45D9 /* PodProject_A */,
+				0D2502DA274B9C19001D45D9 /* PodProject_ATests */,
 			);
 		};
 /* End PBXProject section */
@@ -206,7 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D250361274B9FE5001D45D9 /* TestFilesViewController.swift in Sources */,
+				0D11A9032752183400F8C2CF /* TestFilesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,7 +223,7 @@
 /* Begin PBXTargetDependency section */
 		0D2502DE274B9C19001D45D9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0D2502D1274B9C18001D45D9 /* PodProject */;
+			target = 0D2502D1274B9C18001D45D9 /* PodProject_A */;
 			targetProxy = 0D2502DD274B9C19001D45D9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -445,7 +445,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D2502CC274B9C18001D45D9 /* Build configuration list for PBXProject "PodProject" */ = {
+		0D2502CC274B9C18001D45D9 /* Build configuration list for PBXProject "PodProject_A" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D2502E4274B9C19001D45D9 /* Debug */,
@@ -454,7 +454,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0D2502E6274B9C19001D45D9 /* Build configuration list for PBXNativeTarget "PodProject" */ = {
+		0D2502E6274B9C19001D45D9 /* Build configuration list for PBXNativeTarget "PodProject_A" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D2502E7274B9C19001D45D9 /* Debug */,
@@ -463,7 +463,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0D2502E9274B9C19001D45D9 /* Build configuration list for PBXNativeTarget "PodProjectTests" */ = {
+		0D2502E9274B9C19001D45D9 /* Build configuration list for PBXNativeTarget "PodProject_ATests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D2502EA274B9C19001D45D9 /* Debug */,
